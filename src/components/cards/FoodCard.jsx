@@ -9,7 +9,7 @@ function FoodCard({
 }) {
   return (
     <div className="food-category">
-      <img className="category-img" src={img} alt={alt} />
+      <img  className="category-img" src={img} alt={alt} loading="lazy" />
       <div className="category-info">
         <p className="category-title">{title}</p>
         <p className="category-extra-info">{desc}</p>

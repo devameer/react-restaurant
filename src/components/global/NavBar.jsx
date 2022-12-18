@@ -15,7 +15,7 @@ const NavBar = () => {
           <Li liClass="nav-link" liLink="#" liText="Menu" />
           <Li liClass="nav-link" liLink="#" liText="Blogs" />
         </UL>
-        <img src="/assets/search.png" alt="" />
+        <img src="/assets/search.png" alt="" loading="lazy" />
       </div>
 
       <div className="book-now-box">

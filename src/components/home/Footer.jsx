@@ -18,7 +18,7 @@ function Footer() {
             <div className="footer-contact">
               <h3 className="contact-footer-title">Contact Us</h3>
               <div className="contact-type-footer">
-                <img src="/assets/email.png" alt="email Icon" />
+                <img src="/assets/email.png" alt="email Icon" loading="lazy" />
                 <a
                   href="Gogreendineservice@gmail.com"
                   className="mailto-footer"
@@ -27,13 +27,13 @@ function Footer() {
                 </a>
               </div>
               <div className="contact-type-footer">
-                <img src="/assets/location.png" alt="location Icon" />
+                <img src="/assets/location.png" alt="location Icon" loading="lazy" />
                 <p className="footer-location">
                   AZ complex bylane3 Mandari Rd Mumbai 1100867
                 </p>
               </div>
               <div className="contact-type-footer">
-                <img src="/assets/phone.png" alt="phone Icon" />
+                <img src="/assets/phone.png" alt="phone Icon"  loading="lazy"/>
                 <a href="+1800 287 256" className="phone-footer">
                   +1800 287 256
                 </a>

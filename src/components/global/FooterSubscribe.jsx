@@ -8,7 +8,7 @@ function FooterSubscribe({ img, to }) {
       <Container>
         <div className="footer-subs-flex">
           <div className="subscribe-to">
-            <img src={img} alt="" className="subscribe-img" />
+            <img  src={img} alt="" className="subscribe-img" loading="lazy" />
             <h3 className="subscribe-to-title">Subscribe to {to}</h3>
           </div>
           <input

@@ -29,6 +29,7 @@ function GeneralSection({
               src={img}
               className={imgClass}
               alt={alt}
+              loading="lazy"
             />
           </div>
         </div>

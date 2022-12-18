@@ -8,7 +8,7 @@ function SpecialCard({
 }) {
   return (
     <div className="special-type-card">
-      <img src={img} alt={alt} />
+      <img  src={img} alt={alt} loading="lazy"/>
       <span className="special-type-title">{title}</span>
       <p className="special-type-text">{desc}</p>
     </div>
